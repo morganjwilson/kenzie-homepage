@@ -10,7 +10,7 @@ h1 {
 
 h2 {
   text-align: center;
-  font-weight: 50;
+  font-weight: 100;
   font-size: 110%;
 }
 
@@ -25,6 +25,38 @@ h3 {
   margin-right: auto;
   text-align: center;
   padding: 15px;
+}
+.block1 {
+  padding: 100px;
+}
+.block2 {
+  padding: 20px;
+  font-family: "Nunito", sans-serif;
+  font-size: 15pt;
+}
+.block3 {
+  padding: 20px;
+  font-family: "Nunito", sans-serif;
+  font-size: 15pt;
+}
+.block4 {
+  padding: 20px;
+  font-family: "Nunito", sans-serif;
+  font-size: 15pt;
+}
+.block5 {
+  padding: 20px;
+  font-family: "Nunito", sans-serif;
+  font-size: 15pt;
+}
+.block6 {
+  padding: 100px;
+  font-family: "Nunito", sans-serif;
+  margin-left: 50%;
+}
+.students {
+  font-weight: bold;
+  font-size: 20px;
 }
 /* Layout Styles */
 
@@ -69,7 +101,8 @@ nav li {
 .video {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: center;
+  padding: 25px;
 }
 
 .form {
@@ -82,4 +115,10 @@ nav li {
   margin-left: auto;
   margin-right: auto;
   text-align: left;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  justify-content: center;
 }
