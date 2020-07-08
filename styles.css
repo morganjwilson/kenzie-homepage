@@ -6,6 +6,7 @@ body {
 h1 {
   text-align: center;
   font-size: 200%;
+  padding: 20px;
 }
 
 h2 {
@@ -29,26 +30,7 @@ h3 {
 .block1 {
   padding: 100px;
 }
-.block2 {
-  padding: 20px;
-  font-family: "Nunito", sans-serif;
-  font-size: 15pt;
-}
-.block3 {
-  padding: 20px;
-  font-family: "Nunito", sans-serif;
-  font-size: 15pt;
-}
-.block4 {
-  padding: 20px;
-  font-family: "Nunito", sans-serif;
-  font-size: 15pt;
-}
-.block5 {
-  padding: 20px;
-  font-family: "Nunito", sans-serif;
-  font-size: 15pt;
-}
+
 .block6 {
   padding: 100px;
   font-family: "Nunito", sans-serif;
@@ -103,6 +85,7 @@ nav li {
   flex-direction: column;
   justify-content: center;
   padding: 25px;
+  margin: auto;
 }
 
 .form {
@@ -121,4 +104,8 @@ nav li {
   display: grid;
   grid-template-columns: 200px 200px 200px 200px;
   justify-content: center;
+  padding: 20px;
+  font-family: "Nunito", sans-serif;
+  font-size: 15pt;
+  margin: auto;
 }
