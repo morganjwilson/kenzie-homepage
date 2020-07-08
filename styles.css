@@ -33,12 +33,12 @@ h3 {
 
 .block6 {
   padding: 100px;
-  font-family: "Nunito", sans-serif;
   margin-left: 50%;
 }
 .students {
   font-weight: bold;
   font-size: 20px;
+  font-family: "Nunito", sans-serif;
 }
 /* Layout Styles */
 
@@ -105,7 +105,13 @@ nav li {
   grid-template-columns: 200px 200px 200px 200px;
   justify-content: center;
   padding: 20px;
-  font-family: "Nunito", sans-serif;
   font-size: 15pt;
   margin: auto;
+}
+.member-icons {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  justify-content: center;
+  padding: 20px;
+  font-size: 15pt;
 }
